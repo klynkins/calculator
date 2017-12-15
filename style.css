@@ -1,16 +1,50 @@
 body {
-    text-align: center;
+ background: url(http://images.all-free-download.com/images/graphiclarge/set_of_math_scribble_design_vector_522715.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ text-align: center;
 }
 
-button {
-    background-color: black; 
-    border: solid;
+h1 {
     color: white;
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    width: 45px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:2em;
+    text-shadow: 2px 4px 5px black;
+}
+
+#display {
+    margin-bottom: 20px;
+    height: 30px;
+    width: 10em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px black;
+    text-align: right;
+    font:20px bold;
+}
+
+#calculator{
+    background-color: black;
+    width: 250px;
+    height: 300px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 3px 6px white;
+}
+
+#keys {
+    width: 41px;
+    height: 35px;
+    margin: 4px;
+    border-radius: 2px;
+    outline: none;
+}
+
+#equal {
+    width: 93px;
+    height: 35px;
+    margin: 4px;
+    border-radius: 2px;
+    outline: none;
 }
